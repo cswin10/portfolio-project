@@ -1,22 +1,72 @@
+html, body {
+    height: 100%;
+}
+
 body {
     color: black;
     background-color: white;
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
+    display:flex;
+    flex-direction: column;
 }
 header {
-    background-color: #333;
+    background-color: #b7bcf1;
     color: #fff;
-    padding: 20px;
+    padding: 5px;
+}
+
+#heading{
     text-align: center;
 }
+nav ul{
+    list-style-type none;
+    padding: 0;
+    margin: 0;
+  
+}
+.project-list{
+    font-size: 25px;;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
 
 main {
     padding: 20px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
 
 }
 
+
+.section-1{
+  flex: 1;
+  text-align: center;
+}
 section {
     margin: 20px 0;
+    flex: 1;
 }
+.badge-section{
+    background-color: ;
+    flex: 1;
+
+}
+
+.badge-section #explanation{
+    text-align: center;
+    font-size: 30px;
+}
+footer {
+    background-color: #B5C9E6;
+    color: black;
+    text-align: center;
+    padding: 20px;
+
+}
+
